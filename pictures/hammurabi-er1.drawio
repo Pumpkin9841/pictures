@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T15:09:28.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NzJhHR0Jo-wzH2DEY6Z1" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-02T15:21:52.201Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VpbnIgTrIJtJdXk0c2lg" version="21.5.1" type="github">
   <diagram name="第 1 页" id="5t3NjeUMs80RB9Tgrbg6">
     <mxGraphModel dx="1957" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -185,6 +185,15 @@
           <mxGeometry y="42" width="227" height="257" as="geometry" />
         </mxCell>
         <mxCell id="YN_snYb4k6XouH314AB_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YN_snYb4k6XouH314AB_-41" source="YN_snYb4k6XouH314AB_-42" target="YN_snYb4k6XouH314AB_-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-44" value="rule_group_member&lt;br&gt;(规则组-成员表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-189" y="1105" width="227" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-45" value="&lt;b&gt;group_id: varchar(50)&lt;/b&gt;&lt;br&gt;&lt;b&gt;rule_id: varchar(50)&lt;br&gt;&lt;/b&gt;priority: int(11)&lt;br&gt;risk_level: varhcar(255)&lt;br&gt;decision_data: varchar(255)&lt;br&gt;status: varhcar(10)&lt;br&gt;extra_data: varchar(500)&lt;br&gt;create_by: varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;create_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_by: varchar(255)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YN_snYb4k6XouH314AB_-44">
+          <mxGeometry y="42" width="227" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YN_snYb4k6XouH314AB_-44" source="YN_snYb4k6XouH314AB_-45" target="YN_snYb4k6XouH314AB_-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
