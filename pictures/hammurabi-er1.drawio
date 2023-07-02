@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T08:42:51.965Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="z5yFIq3cgCwjMDOVnyiW" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-02T08:53:26.289Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7cHO1FbKFN01EtqsyTLL" version="21.5.1" type="github">
   <diagram name="第 1 页" id="5t3NjeUMs80RB9Tgrbg6">
     <mxGraphModel dx="1896" dy="722" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -91,10 +91,19 @@
         <mxCell id="YN_snYb4k6XouH314AB_-1" value="Business" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-468" y="632" width="160" height="147" as="geometry" />
         </mxCell>
-        <mxCell id="YN_snYb4k6XouH314AB_-2" value="id: varchar(255)&lt;br&gt;name: varchar(255)&lt;br&gt;create_by: varchar(500)&lt;br&gt;create_at: datetime&lt;br&gt;updated_at: datetime&lt;br&gt;update_by: varchar(20)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YN_snYb4k6XouH314AB_-1">
+        <mxCell id="YN_snYb4k6XouH314AB_-2" value="id: varchar(255)&lt;br&gt;name: varchar(255)&lt;br&gt;create_by: varchar(255)&lt;br&gt;create_at: datetime&lt;br&gt;updated_at: datetime&lt;br&gt;update_by: varchar(255)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YN_snYb4k6XouH314AB_-1">
           <mxGeometry y="42" width="160" height="105" as="geometry" />
         </mxCell>
         <mxCell id="YN_snYb4k6XouH314AB_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YN_snYb4k6XouH314AB_-1" source="YN_snYb4k6XouH314AB_-2" target="YN_snYb4k6XouH314AB_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-4" value="Dredge_round" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-243" y="633" width="160" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-5" value="id: int(11)&lt;br&gt;task_id: int(11)&lt;br&gt;type: varchar(8)&lt;br&gt;count: int(4)&lt;br&gt;file_url: varchar(1024)&lt;br&gt;accuracy: double&lt;br&gt;state: varchar(16)&lt;br&gt;create_by: varchar(32)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;create_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_by: varchar(32)&lt;br&gt;query_id: varchar(32)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YN_snYb4k6XouH314AB_-4">
+          <mxGeometry y="42" width="160" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YN_snYb4k6XouH314AB_-4" source="YN_snYb4k6XouH314AB_-5" target="YN_snYb4k6XouH314AB_-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
