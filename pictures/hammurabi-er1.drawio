@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T15:40:13.069Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vxv3UFTAWB95ZIKtrN9M" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-02T15:47:01.404Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Jgf0yjj4qgJRyg-2QjBa" version="21.5.1" type="github">
   <diagram name="第 1 页" id="5t3NjeUMs80RB9Tgrbg6">
     <mxGraphModel dx="1957" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -239,6 +239,15 @@
           <mxGeometry y="42" width="201" height="69" as="geometry" />
         </mxCell>
         <mxCell id="YN_snYb4k6XouH314AB_-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YN_snYb4k6XouH314AB_-59" source="YN_snYb4k6XouH314AB_-60" target="YN_snYb4k6XouH314AB_-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-62" value="wtest_playback_rule&lt;br&gt;(回放规则-任务关联表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1105" width="195" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-63" value="&lt;b&gt;id: int(11)&lt;br&gt;&lt;/b&gt;task_id: int(11)&lt;br&gt;rule_id: int(11)&lt;br&gt;version: varchar(32)&lt;br&gt;expression: varchar(512)&lt;br&gt;count: int(4)&lt;br&gt;rate: double&lt;br&gt;create_by: varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;create_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_by: varchar(255)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YN_snYb4k6XouH314AB_-62">
+          <mxGeometry y="42" width="195" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YN_snYb4k6XouH314AB_-62" source="YN_snYb4k6XouH314AB_-63" target="YN_snYb4k6XouH314AB_-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
