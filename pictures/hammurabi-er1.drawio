@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T15:47:01.404Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Jgf0yjj4qgJRyg-2QjBa" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-02T15:52:51.019Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="S_IaV9UPqKltu2tgiw7L" version="21.5.1" type="github">
   <diagram name="第 1 页" id="5t3NjeUMs80RB9Tgrbg6">
     <mxGraphModel dx="1957" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -248,6 +248,15 @@
           <mxGeometry y="42" width="195" height="172" as="geometry" />
         </mxCell>
         <mxCell id="YN_snYb4k6XouH314AB_-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YN_snYb4k6XouH314AB_-62" source="YN_snYb4k6XouH314AB_-63" target="YN_snYb4k6XouH314AB_-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-65" value="wtest_playback_task&lt;br&gt;(回放-任务表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1907" y="1107" width="239" height="389" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-66" value="&lt;b&gt;id: int(11)&lt;br&gt;&lt;/b&gt;name: varchar(128)&lt;br&gt;version: varchar(32)&lt;br&gt;query_id: varchar(32)&lt;br&gt;schedule_id: varchar(64)&lt;br&gt;scenario_id: varchar(64)&lt;br&gt;rule_id: varchar(64)&lt;br&gt;memo: varchar(256)&lt;br&gt;type: varchar(4)&lt;br&gt;columns: varchar(512)&lt;br&gt;is_distinct: tinyint(1)&lt;br&gt;start_time: datetime&lt;br&gt;end_time: datetime&lt;br&gt;hive_sql: varchar(1024)&lt;br&gt;priority: tinyint(1)&lt;br&gt;count: int(4)&lt;br&gt;state: varchar(16)&lt;br&gt;file_url: varchar(1024)&lt;br&gt;opt_time: datetime&lt;br&gt;create_by: varchar(32)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;create_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_by: varchar(32)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YN_snYb4k6XouH314AB_-65">
+          <mxGeometry y="42" width="239" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YN_snYb4k6XouH314AB_-65" source="YN_snYb4k6XouH314AB_-66" target="YN_snYb4k6XouH314AB_-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
