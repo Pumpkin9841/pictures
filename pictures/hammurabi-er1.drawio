@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T07:11:38.362Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yf0GllwIxHaPGuUD3vtG" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T07:19:15.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aPURmEMnTMvDwxzhMIr1" version="21.5.1" type="github">
   <diagram name="第 1 页" id="5t3NjeUMs80RB9Tgrbg6">
-    <mxGraphModel dx="2101" dy="858" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2693" dy="1247" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,7 +211,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YN_snYb4k6XouH314AB_-53" value="scenario_strategy_approve_log&lt;br&gt;(场景策略审批记录表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1709" y="487" width="201" height="125" as="geometry">
+          <mxGeometry x="852" y="102" width="201" height="125" as="geometry">
             <mxRectangle x="1859" y="812" width="230" height="46" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -222,10 +222,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YN_snYb4k6XouH314AB_-56" value="strategy_clog&lt;br&gt;(策略迭代记录表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1354" y="489" width="180" height="286" as="geometry" />
+          <mxGeometry x="584" y="95" width="180" height="281" as="geometry" />
         </mxCell>
-        <mxCell id="YN_snYb4k6XouH314AB_-57" value="&lt;b&gt;id: int(11)&lt;br&gt;rule_id: varchar(64)&lt;br&gt;&lt;/b&gt;clog_status: varchar(32)&lt;br&gt;done_at: datetime(1)&lt;br&gt;clog_status: varchar(32)&lt;br&gt;is_deleted: tinyint(1)&lt;br&gt;memo: varchar(255)&lt;br&gt;new_data: varchar(2048)&lt;br&gt;old_data: varchar(2048)&lt;br&gt;reviewer: varchar(32)&lt;br&gt;rule_id: varchar(64)&lt;br&gt;strategy_status: varchar(32)&lt;br&gt;create_by: varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;create_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_by: varchar(255)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YN_snYb4k6XouH314AB_-56">
-          <mxGeometry y="42" width="180" height="244" as="geometry" />
+        <mxCell id="YN_snYb4k6XouH314AB_-57" value="&lt;b&gt;id: int(11)&lt;br&gt;&lt;/b&gt;clog_status: varchar(32)&lt;br&gt;done_at: datetime(1)&lt;br&gt;clog_status: varchar(32)&lt;br&gt;is_deleted: tinyint(1)&lt;br&gt;memo: varchar(255)&lt;br&gt;new_data: varchar(2048)&lt;br&gt;old_data: varchar(2048)&lt;br&gt;reviewer: varchar(32)&lt;br&gt;strategy_status: varchar(32)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;scenario_id: varchar(64)&lt;br&gt;rule_id: varchar(64)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;create_by: varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;create_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updated_at: datetime&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update_by: varchar(255)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="YN_snYb4k6XouH314AB_-56">
+          <mxGeometry y="42" width="180" height="239" as="geometry" />
         </mxCell>
         <mxCell id="YN_snYb4k6XouH314AB_-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YN_snYb4k6XouH314AB_-56" source="YN_snYb4k6XouH314AB_-57" target="YN_snYb4k6XouH314AB_-57">
           <mxGeometry relative="1" as="geometry" />
@@ -281,16 +281,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YN_snYb4k6XouH314AB_-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1534" y="534" as="sourcePoint" />
-            <mxPoint x="1709" y="541" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1577" y="541" />
-              <mxPoint x="1645" y="541" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="YN_snYb4k6XouH314AB_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.001;exitY=0.424;exitDx=0;exitDy=0;entryX=0.007;entryY=0.099;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;exitPerimeter=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="26_FJcOAuXf4uYJPlZqO-51" target="26_FJcOAuXf4uYJPlZqO-55">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -318,6 +308,20 @@
               <mxPoint x="206" y="154" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.004;exitY=0.047;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.658;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1" source="YN_snYb4k6XouH314AB_-14" target="YN_snYb4k6XouH314AB_-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="559" y="136" />
+              <mxPoint x="559" y="294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.105;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1" source="YN_snYb4k6XouH314AB_-14" target="YN_snYb4k6XouH314AB_-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YN_snYb4k6XouH314AB_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.01;exitY=0.045;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.355;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1" source="YN_snYb4k6XouH314AB_-57" target="YN_snYb4k6XouH314AB_-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
