@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T05:59:08.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.2" etag="IfYb15QxaUp-EmPb6i8G" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T10:47:12.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="_t_EzpSMraCPLb_ywwzu" version="21.6.2" type="github">
   <diagram name="第 1 页" id="RwdDkMVxCmkXGutyeQiV">
-    <mxGraphModel>
+    <mxGraphModel dx="1314" dy="866" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y90TR_eES9gFVXuPP8y6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;targetPerimeterSpacing=10;endSize=17;" edge="1" parent="1" source="y90TR_eES9gFVXuPP8y6-1" target="y90TR_eES9gFVXuPP8y6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y90TR_eES9gFVXuPP8y6-7" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px;&quot;&gt;全量&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y90TR_eES9gFVXuPP8y6-5">
+          <mxGeometry x="-0.1345" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y90TR_eES9gFVXuPP8y6-1" value="&lt;h4&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px;&quot; color=&quot;#000000&quot;&gt;MySQL&lt;/font&gt;&lt;/h4&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;curveFitting=1;jiggle=2;shadow=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="190" y="373" width="78" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="y90TR_eES9gFVXuPP8y6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;targetPerimeterSpacing=10;endSize=17;" edge="1" parent="1" source="y90TR_eES9gFVXuPP8y6-2" target="y90TR_eES9gFVXuPP8y6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y90TR_eES9gFVXuPP8y6-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;增量（第三阶段）&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y90TR_eES9gFVXuPP8y6-4">
+          <mxGeometry x="-0.2946" y="-2" relative="1" as="geometry">
+            <mxPoint x="46" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y90TR_eES9gFVXuPP8y6-2" value="&lt;h4 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 18px;&quot; face=&quot;Comic Sans MS&quot; color=&quot;#000000&quot;&gt;Kafka&lt;/font&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;glass=0;shadow=0;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="176" y="218" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y90TR_eES9gFVXuPP8y6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=10;endSize=17;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="y90TR_eES9gFVXuPP8y6-3" target="y90TR_eES9gFVXuPP8y6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y90TR_eES9gFVXuPP8y6-10" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Comic Sans MS&quot;&gt;loadData()&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y90TR_eES9gFVXuPP8y6-9">
+          <mxGeometry x="-0.3435" y="1" relative="1" as="geometry">
+            <mxPoint x="27" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y90TR_eES9gFVXuPP8y6-3" value="&lt;h4 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 18px;&quot; face=&quot;Comic Sans MS&quot; color=&quot;#000000&quot;&gt;Data&lt;/font&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;glass=0;shadow=0;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="392" y="322" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="y90TR_eES9gFVXuPP8y6-8" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Root&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;rounded=0;sketch=1;curveFitting=1;jiggle=2;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="754" y="309" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
