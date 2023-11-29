@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T13:11:39.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="g97X-b6up4Sr4M0U3ALJ" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T14:18:57.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XAnJO1cMxu_hHFTsC0Y3" version="22.1.4" type="github">
   <diagram name="第 1 页" id="YN5BQie6PkeyocpbjoSp">
     <mxGraphModel dx="2049" dy="1116" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rvA-BhatUpdobI_BEDJa-286" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8ecef;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="184" y="915" width="324" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-278" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8ecef;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="822" y="670" width="324" height="203" as="geometry" />
+        </mxCell>
         <mxCell id="rIetsEfEi0GEKCd9jEV6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="rIetsEfEi0GEKCd9jEV6-1" target="rIetsEfEi0GEKCd9jEV6-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -143,59 +149,8 @@
         <mxCell id="rIetsEfEi0GEKCd9jEV6-86" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 37px;&quot;&gt;Z&lt;sub&gt;bf&lt;/sub&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="752" y="276.01" width="222" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-3" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="235" y="854" width="137.88" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-3">
-          <mxGeometry width="137.88" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;ReLU&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-3">
-          <mxGeometry x="38" y="13" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-4" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="158" y="854" width="137.88" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-4">
-          <mxGeometry width="137.88" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;Conv2d&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-4">
-          <mxGeometry x="38" y="13" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-7" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="316" y="855" width="137.88" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-7">
-          <mxGeometry width="137.88" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-9" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;Conv2d&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-7">
-          <mxGeometry x="38" y="13" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-10" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="395" y="855" width="137.88" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-10">
-          <mxGeometry width="137.88" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-12" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;ReLU&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-10">
-          <mxGeometry x="38" y="13" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-19" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;" vertex="1" parent="1">
-          <mxGeometry x="14.000000000000073" y="582" width="71.1" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-18" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#74d19e;container=0;" vertex="1" parent="1">
-          <mxGeometry x="133.00000000000006" y="633" width="71.1" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-16" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#fad974;container=0;" vertex="1" parent="1">
-          <mxGeometry x="74.00000000000003" y="649" width="71.1" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-29" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#fad974;container=0;" vertex="1" parent="1">
-          <mxGeometry x="120.00000000000003" y="712" width="71.1" height="79" as="geometry" />
-        </mxCell>
-        <mxCell id="rvA-BhatUpdobI_BEDJa-36" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#fad974;container=0;" vertex="1" parent="1">
-          <mxGeometry x="230.90000000000006" y="710" width="71.1" height="79" as="geometry" />
-        </mxCell>
         <mxCell id="rvA-BhatUpdobI_BEDJa-105" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="590" y="775" width="207.99" height="230" as="geometry" />
+          <mxGeometry x="590" y="891" width="207.99" height="230" as="geometry" />
         </mxCell>
         <mxCell id="rvA-BhatUpdobI_BEDJa-87" value="" style="group;strokeColor=none;" vertex="1" connectable="0" parent="rvA-BhatUpdobI_BEDJa-105">
           <mxGeometry x="77.25427654109589" width="130.7357234589041" height="192.1612903225806" as="geometry" />
@@ -400,6 +355,153 @@
         </mxCell>
         <mxCell id="rvA-BhatUpdobI_BEDJa-33" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#fa7474;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-50">
           <mxGeometry x="77.31363441780823" y="37.096774193548384" width="52.75431292808216" height="58.61290322580645" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-259" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="833" y="687" width="289.5" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-247" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="rvA-BhatUpdobI_BEDJa-259">
+          <mxGeometry x="34.309999999999945" y="42.690000000000055" width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-248" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-247">
+          <mxGeometry width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-249" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;ReLU&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-247">
+          <mxGeometry x="38" y="13" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-250" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="rvA-BhatUpdobI_BEDJa-259">
+          <mxGeometry x="-42.690000000000055" y="42.690000000000055" width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-251" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-250">
+          <mxGeometry width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-252" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;Conv2d&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-250">
+          <mxGeometry x="38" y="13" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-253" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="rvA-BhatUpdobI_BEDJa-259">
+          <mxGeometry x="115.30999999999995" y="43.690000000000055" width="137.88" height="142.30999999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-254" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-253">
+          <mxGeometry width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-255" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;Linear&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-253">
+          <mxGeometry x="38" y="13" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-279" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;E&lt;sub&gt;bf&lt;/sub&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-253">
+          <mxGeometry x="-4.309999999999945" y="98.30999999999995" width="69" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-256" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="rvA-BhatUpdobI_BEDJa-259">
+          <mxGeometry x="194.30999999999995" y="43.690000000000055" width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-257" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-256">
+          <mxGeometry width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-258" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;ReLU&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-256">
+          <mxGeometry x="38" y="13" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-260" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="883" as="sourcePoint" />
+            <mxPoint x="817" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-261" value="" style="group;strokeColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1245.33" y="646.44" width="149.67" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-262" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry y="109.57528957528957" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-263" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="0.08494324631102951" y="72.2007722007722" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-264" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="0.08494324631102951" y="35.67567567567568" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-265" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="0.08494324631102951" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-266" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="29.815079455164597" y="124.01544401544402" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-267" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="29.815079455164597" y="87.49034749034749" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-268" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="29.815079455164597" y="50.11583011583012" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-269" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="29.815079455164597" y="14.44015444015444" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-270" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="59.5027440408627" y="139.3050193050193" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-271" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="59.5027440408627" y="102.77992277992279" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-272" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="59.545215664018166" y="65.4054054054054" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-273" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="59.5027440408627" y="28.88030888030888" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-274" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="89.27535187287174" y="152.8957528957529" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-275" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="88.91009591373444" y="117.22007722007721" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-276" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="89.1904086265607" y="79.84555984555985" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-277" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;fillColor=#99B2DF;container=0;strokeColor=default;shadow=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-261">
+          <mxGeometry x="88.51086265607267" y="42.47104247104247" width="60.39464812712824" height="67.10424710424711" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-280" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="761" as="sourcePoint" />
+            <mxPoint x="1238" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-281" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 37px;&quot;&gt;Z&lt;sub&gt;bf&lt;/sub&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1233" y="885" width="222" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;container=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="977" width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-12" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;ReLU&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;container=0;" vertex="1" parent="1">
+          <mxGeometry x="433" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-4" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="158" y="976" width="385" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;container=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-4">
+          <mxGeometry width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;Conv2d&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;container=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-4">
+          <mxGeometry x="38" y="13" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-287" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;E&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 29.1667px;&quot;&gt;&lt;sub&gt;fm&lt;/sub&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rvA-BhatUpdobI_BEDJa-4">
+          <mxGeometry x="145" y="99" width="69" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;container=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="976" width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;ReLU&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;container=0;" vertex="1" parent="1">
+          <mxGeometry x="273" y="989" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c5e0b4;strokeColor=none;shadow=1;rotation=90;container=0;" vertex="1" parent="1">
+          <mxGeometry x="316" y="977" width="137.88" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-9" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 35px;&quot;&gt;Conv2d&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;container=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rvA-BhatUpdobI_BEDJa-288" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519" y="1009" as="sourcePoint" />
+            <mxPoint x="578" y="1009" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
